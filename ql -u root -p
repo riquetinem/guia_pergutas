@@ -1,0 +1,10 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2019-12-18 21:28:52 -03; 2h 7min ago
+ Main PID: 12705 (mysqld)
+    Tasks: 28 (limit: 4915)
+   CGroup: /system.slice/mysql.service
+           └─12705 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.pid
+
+Dec 18 21:28:51 ancarcocapitalismo systemd[1]: Starting MySQL Community Server...
+Dec 18 21:28:52 ancarcocapitalismo systemd[1]: Started MySQL Community Server.
